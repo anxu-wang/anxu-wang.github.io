@@ -150,7 +150,7 @@
       object-fit: cover;
       display: block;
     }
-    .<img src="photo.jpg" alt="Anxu Wang"> {
+    .photo-placeholder {
       font-size: 0.72rem;
       letter-spacing: 0.06em;
       color: var(--ink-muted);
@@ -336,18 +336,53 @@
           <a href="#" target="_blank">Google Scholar</a>
         </div>
       </div>
-       <div class="photo-wrap">
-        <img src="photo.jpg" alt="Anxu Wang">
-       </div>
+      <div class="photo-wrap">
+        <!-- 上传照片后将此行替换为: <img src="photo.jpg" alt="Anxu Wang"> -->
+        <p class="photo-placeholder">Photo<br>coming<br>soon</p>
+      </div>
     </div>
   </section>
 
   <!-- WORKING PAPERS -->
   <section id="research">
-    <div class="section-head">Research</div>
-    <p style="font-size:0.92rem;font-style:italic;color:var(--ink-muted);">
-      Papers coming soon. Please check back or contact me by email.
-    </p>
+    <div class="section-head">Working Papers</div>
+
+    <div class="paper">
+      <div class="paper-meta">
+        <span class="badge badge-wip">Working Paper</span>
+        <span class="paper-year">2025</span>
+      </div>
+      <div class="paper-title">
+        <a href="Wang_trade_credit_paper.pdf" target="_blank">
+          The Transmission of Financial Shocks through Trade Credit:
+          Theory and Evidence from China's Real Estate Deleveraging
+        </a>
+      </div>
+      <div class="paper-authors">with Haoxuan Su and Yang Yao</div>
+      <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract ↓</button>
+      <div class="abstract-body">
+        How do financial shocks travel through a production network? We study China's 2021
+        "Three Red Lines" policy, which imposed leverage limits on real estate developers,
+        and trace its propagation along supply chains. Combining the balance sheets of listed
+        firms with China's input-output table, we document the channel from both sides of the
+        same transactions: payables rose sharply at constrained developers, and receivables
+        rose at their suppliers — evidence that trade credit is the financial friction on the
+        network's own transaction edges rather than a parallel credit channel. We then develop
+        a multi-sector model in which each firm chooses what fraction of its input bill to
+        prepay against a binding borrowing constraint, so payment terms respond endogenously
+        to financial conditions. Calibrated to Chinese data, the model generates a GDP trough
+        of &minus;4.7%; roughly 40% of the cumulative output response is attributable to the
+        endogenous adjustment of trade credit, a 1.7&times; amplification relative to fixed
+        payment terms. An independent aggregation of our firm-level estimates implies an
+        economy-wide loss of the same order of magnitude. Sector-specific financial regulation
+        should therefore be judged by its spillovers through the production network, not only
+        by its effect on the targeted sector.
+      </div>
+      <div class="paper-links">
+        <a class="paper-link" href="Wang_trade_credit_paper.pdf" target="_blank">PDF</a>
+      </div>
+    </div>
+
   </section>
 
   <!-- CONTACT -->
