@@ -258,6 +258,24 @@
     }
     .paper-link:hover { border-color: var(--accent); }
 
+    .pipeline {
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      margin: 2.5rem 0 0.25rem;
+    }
+    .pipeline:first-of-type { margin-top: 0; }
+    .pipeline-desc {
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--ink-muted);
+      margin-bottom: 0.5rem;
+    }
+    .paper-simple { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+    .paper-simple:last-child { border-bottom: none; }
+    .paper-simple .paper-title { margin-bottom: 0.15rem; }
+    .paper-simple .paper-authors { margin-bottom: 0; }
+
     /* CONTACT */
     .contact-grid {
       display: grid;
@@ -297,7 +315,7 @@
   <header>
     <h1 class="name">Anxu Wang</h1>
     <p class="name-zh">王安绪</p>
-    <p class="position">Third-Year PhD Student &ensp;·&ensp; National School of Development, Peking University</p>
+    <p class="position">Fourth-Year PhD Student &ensp;·&ensp; National School of Development, Peking University</p>
     <nav>
       <a href="#about">About</a>
       <a href="#research">Research</a>
@@ -311,29 +329,24 @@
     <div class="bio-inner">
       <div>
         <p>
-          I am a third-year PhD student at the
+          I am a fourth-year PhD student at the
           <a href="https://en.nsd.pku.edu.cn" target="_blank" style="color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='transparent'">National School of Development, Peking University</a>,
           advised by Professor <em>Yang Yao</em> (姚洋).
           I expect to complete my PhD in 2028, having passed my qualifying examinations.
         </p>
         <p>
-          My research spans <em>political economy</em>, <em>development economics</em>,
-          <em>Macro-Finance</em>, and the economics of <em>artificial intelligence</em>.
-          I am broadly interested in how institutions, technology, and policy shape
-          economic development and structural change.
+          My research is in <em>political economy</em> and the economics of
+          <em>artificial intelligence</em>. I study how governments, political
+          institutions, and policy shape firms, resource allocation, and development,
+          and how generative AI changes productivity, inequality, and the way
+          social science is done.
         </p>
         <div class="fields">
           <span class="field">Political Economy</span>
-          <span class="field">Macro-Finance</span>
-          <span class="field">Development Economics</span>
-          <span class="field">AI for & in Economics</span>
+          <span class="field">Artificial Intelligence</span>
         </div>
         <div class="bio-links">
-          <a href="cv.pdf">Curriculum Vitae</a>
-          <span class="sep">·</span>
           <a href="mailto:axwang2023@nsd.pku.edu.cn">Email</a>
-          <span class="sep">·</span>
-          <a href="#" target="_blank">Google Scholar</a>
         </div>
       </div>
       <div class="photo-wrap">
@@ -344,7 +357,10 @@
 
   <!-- WORKING PAPERS -->
   <section id="research">
-    <div class="section-head">Working Papers</div>
+    <div class="section-head">Research</div>
+
+    <div class="pipeline">Political Economy</div>
+    <div class="pipeline-desc">How governments, political institutions, and policy interventions shape firms, resource allocation, and development.</div>
 
     <div class="paper">
       <div class="paper-meta">
@@ -382,6 +398,35 @@
       </div>
     </div>
 
+    <div class="paper-simple">
+      <div class="paper-title">The Political Economy of Deglobalization</div>
+      <div class="paper-authors">Work in Progress</div>
+    </div>
+    <div class="paper-simple">
+      <div class="paper-title">Fiscal Multipliers in Production Networks</div>
+      <div class="paper-authors">Work in Progress &ensp;·&ensp; with Songrui Liu, Haoxuan Su, and Yang Yao</div>
+    </div>
+
+    <div class="pipeline">Artificial Intelligence</div>
+    <div class="pipeline-desc">The economics of generative AI (productivity, inequality, and development) and LLM agents as tools for social science.</div>
+
+    <div class="paper-simple">
+      <div class="paper-title">Multilingual Agent-Based World Modeling for Social Science</div>
+      <div class="paper-authors">Accepted, COLM 2026 &ensp;·&ensp; with Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, and Yang Deng</div>
+    </div>
+    <div class="paper-simple">
+      <div class="paper-title">Generative AI as an Inequality Amplifier: Linguistic Compatibility, Leapfrogging and Productivity Growth</div>
+      <div class="paper-authors">Working Paper &ensp;·&ensp; with Yang Chen</div>
+    </div>
+    <div class="paper-simple">
+      <div class="paper-title">Artificial Intelligence, Comparative Advantage, and Structural Transformation: State Praxis in a Fragmented World</div>
+      <div class="paper-authors">Work in Progress &ensp;·&ensp; with Justin Yifu Lin, Gazi S. Uddin, and Xin Wang</div>
+    </div>
+    <div class="paper-simple">
+      <div class="paper-title">Calibration of LLM-Based Social Simulations</div>
+      <div class="paper-authors">Work in Progress &ensp;·&ensp; Platform and Demo Available</div>
+    </div>
+
   </section>
 
   <!-- CONTACT -->
@@ -394,13 +439,11 @@
       <span class="cl">Office</span>
       <span class="cv">National School of Development<br>Peking University, Beijing, China</span>
 
-      <span class="cl">Scholar</span>
-      <span class="cv"><a href="#" target="_blank">Google Scholar</a></span>
     </div>
   </section>
 
   <div class="ornament">· · ·</div>
-  <footer>© 2025 Anxu Wang &ensp;·&ensp; Last updated April 2025</footer>
+  <footer>© 2026 Anxu Wang &ensp;·&ensp; Last updated October 2026</footer>
 
 </div>
 <script>
