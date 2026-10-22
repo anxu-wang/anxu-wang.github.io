@@ -276,6 +276,16 @@
     .paper-simple .paper-title { margin-bottom: 0.15rem; }
     .paper-simple .paper-authors { margin-bottom: 0; }
 
+    .conf-grid {
+      display: grid;
+      grid-template-columns: 5.5rem 1fr;
+      gap: 0.55rem 1.5rem;
+      font-size: 0.92rem;
+    }
+    .conf-date { color: var(--ink-muted); font-size: 0.82rem; font-style: italic; padding-top: 0.1rem; }
+    .conf-name { color: var(--ink-soft); line-height: 1.5; }
+    .conf-up { color: var(--accent); font-size: 0.82rem; }
+
     /* CONTACT */
     .contact-grid {
       display: grid;
@@ -303,7 +313,8 @@
     @media (max-width: 520px) {
       body { font-size: 16px; }
       header { padding: 3rem 0 2rem; }
-      nav { gap: 1.5rem; }
+      nav { gap: 1.1rem; flex-wrap: wrap; }
+      .conf-grid { grid-template-columns: 4.5rem 1fr; gap: 0.5rem 1rem; }
       .bio-inner { grid-template-columns: 1fr; }
       .photo-wrap { width: 100px; height: 124px; }
     }
@@ -319,6 +330,7 @@
     <nav>
       <a href="#about">About</a>
       <a href="#research">Research</a>
+      <a href="#presentations">Presentations</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -430,6 +442,35 @@
       <div class="paper-authors">Work in Progress &ensp;·&ensp; Platform and Demo Available</div>
     </div>
 
+  </section>
+
+  <!-- PRESENTATIONS -->
+  <section id="presentations">
+    <div class="section-head">Conferences &amp; Presentations</div>
+    <div class="conf-grid">
+      <span class="conf-date">Dec 2026</span>
+      <span class="conf-name">SFS Cavalcade Asia-Pacific 2026, City University of Hong Kong <em class="conf-up">(upcoming)</em></span>
+      <span class="conf-date">Nov 2026</span>
+      <span class="conf-name">Forum on Local Government and High-Quality Development, Lingnan College, Sun Yat-sen University <em class="conf-up">(upcoming)</em></span>
+      <span class="conf-date">Nov 2026</span>
+      <span class="conf-name">1st International Symposium on Empirical Political Economy and Quantitative Economic History, Xiamen University <em class="conf-up">(upcoming)</em></span>
+      <span class="conf-date">Nov 2026</span>
+      <span class="conf-name">4th China Banking and Corporate Finance Conference (CBCF), Tianjin University <em class="conf-up">(upcoming)</em></span>
+      <span class="conf-date">Oct 2026</span>
+      <span class="conf-name">23rd China Finance Annual Meeting, Nankai University <em class="conf-up">(upcoming)</em></span>
+      <span class="conf-date">Oct 2026</span>
+      <span class="conf-name">26th China Economic Annual Conference, Beijing Normal University</span>
+      <span class="conf-date">Oct 2026</span>
+      <span class="conf-name">Conference on Language Modeling (COLM 2026)</span>
+      <span class="conf-date">Sep 2026</span>
+      <span class="conf-name">The 2nd International Workshop on Macroeconomics and Finance, University of Macau</span>
+      <span class="conf-date">Aug 2026</span>
+      <span class="conf-name">Young Economists Society 2026 Annual Conference, Nanjing University of Finance and Economics</span>
+      <span class="conf-date">Aug 2026</span>
+      <span class="conf-name">Chinese Economic Association Annual Meeting Summer Forum 2026, Dali University</span>
+      <span class="conf-date">Jul 2026</span>
+      <span class="conf-name">Chinese Economists Society 2026 Annual Conference, Southwestern University of Finance and Economics</span>
+    </div>
   </section>
 
   <!-- CONTACT -->
